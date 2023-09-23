@@ -63,6 +63,9 @@ a{
 color:white;
 }
 
+.follow{
+  color:white;
+}
 
 @media (max-width: 900px){
   .photo{
@@ -80,7 +83,7 @@ color:white;
     display: flex;
     justify-content:space-around;
     
-    top: 50%;
+    top: 53%;
     left: 50%;
     transform: translate(-40%, -50%);
 z-index: 1;
