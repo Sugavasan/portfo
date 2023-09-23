@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url("https://wallpaperaccess.com/full/5651992.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+.nav-link{
+    color:white !important;
+}
+
+.nav-link:hover{
+    color:blue !important;
+}
+
+.para{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    animation:myAnimation 3s ease-in 2s  5 alternate;
+    transition:.8s;
+}
+@keyframes myAnimation{
+0%{opacity:0.1;
+}
+50%{text-shadow:2px 2px 2px black;}
+100%{opacity:0.6em ;}
+}
+.glass{
+   
+    color:white;
+}
+
+.para{
+    position:absolute;
+     top: 50%; 
+     left:75%; 
+    transform: translate(-50%, -50%); 
+    
+    text-align: center;
+
+}
+@media (max-width: 800px){
+.para{
+    font-size:10em;
+    font-weight: 3;
+color:red;
+
+}
+}
+button{
+    color:white;
+}

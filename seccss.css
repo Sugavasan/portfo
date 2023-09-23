@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url("https://img.freepik.com/free-photo/black-brick-wall-textured-background_53876-63572.jpg?w=740&t=st=1688108361~exp=1688108961~hmac=df5308d5e63a3306053ef8b7ee412be1cd9b1013ce675a8c6a496a8e94fb74de");
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+#contac {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  
+}
+#project {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  color:white;
+}
+
+#skills{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  color:white;
+}
+
+.photo{
+  position: absolute;
+  top:85px;  
+  
+  left:70px;
+
+}
+a{
+  color:white;
+}
+
+.nav-link{
+  color:white;
+}
+
+.form-label{
+color:white;
+}
+
+
+@media (max-width: 900px){
+  .photo{
+    position: absolute;
+    top:150px;
+    left:90px;
+    transform: translate(-30%, -50%);
+  }
+  body{
+    background-color: black;
+  }
+  
+  #project {
+    position: absolute;
+    display: flex;
+    justify-content:space-around;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+z-index: 1;
+  color:white;
+}
+#contac {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35%, -50%);
+  
+
+}
+  }
+
+button{
+    color:white;
+}
+
